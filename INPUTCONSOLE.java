@@ -4,18 +4,21 @@ import java.util.Scanner;
 
 public class INPUTCONSOLE {
     public static void main(String[] args) {
-         Scanner scanner = new Scanner(System.in);
+        String nama;
+        String nim;
+        String kelas;
         
-        System.out.println("masukkan nama : ");
-        String nama = scanner.nextLine();
-        System.out.println("masukkan kelas: ");
-        String kelas = scanner.nextLine();
-        System.out.println("masukkan nim  : ");
-        String nim = scanner.nextLine();
+        Scanner scanner = new Scanner(System.in);
         
-        System.out.println("saya telah memasukkan: ");
-        System.out.println("Nama : " + nama);
-        System.out.println("Kelas: " + kelas);
-        System.out.println("Nim  : " + nim);
+        System.out.println("inputkan nama : ");
+        nama = scanner.nextLine();
+        System.out.println("inputkan nim  : ");
+        nim= scanner.nextLine();
+        System.out.println("inputkan kelas:");
+        kelas =scanner.nextLine();
+        
+        System.out.println("nama saya adalah :" + nama);
+        System.out.println("nim saya: " + nim);
+        System.out.println("kelas saya: "+ kelas);
     }
 }
