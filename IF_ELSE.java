@@ -1,5 +1,5 @@
 
-package DAYS_16;
+package DAYS_17;
 
 import java.util.Scanner;
 
